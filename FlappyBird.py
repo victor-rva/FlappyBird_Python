@@ -185,7 +185,7 @@ def desenhar_tela(tela, passaros, canos, chao, pontos):
     tela.blit(texto, (TELA_LAREGURA - 10 - texto.get_width(), 10))
     chao.desenhar(tela)
     pygame.display.update()
-
+ 
 
 def main():
     passaros = [Passaro(230, 350)]
